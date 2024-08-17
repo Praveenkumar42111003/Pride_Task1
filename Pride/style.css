@@ -1,0 +1,25 @@
+ body {
+     margin-left: 10px;
+}
+
+.one{
+    background-color: rgba(132, 132, 132, 0.181);
+
+    width:300px;
+}
+.input{
+    border: none;
+    background-color:rgba(128, 128, 128, 0.664);
+    border-radius: 5px ;
+ }
+#button{
+    background-color: rgba(128, 128, 128, 0.911);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.two{
+    margin-left: 30px;
+    
+}
