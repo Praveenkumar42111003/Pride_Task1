@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="one">
+        <h1>HTML Form</h1>
+    
+           <table>
+             <tr>
+                 <td>First name :</td>
+                 <td> <input type="text" class="input"></td>
+             </tr>
+             <tr>
+                 <td>Last Name:</td>
+                 <td><input type="text" class="input"></td>
+             </tr>
+             <tr>
+                 <td>Date of Birth:</td>
+                 <td><input type="text" class="input"></td>
+             </tr>
+             <tr>
+                 <td>Email id:</td>
+                 <td><input type="email" class="input"></td>
+             </tr>
+             <tr>
+                 <td>Mobile Number:</td>
+                 <td><input type="text" class="input" /></td>
+             </tr>
+             <tr>
+                 <td>
+                    <button id="button" class="two"> SUBMIT</button>
+                 </td>
+                 <td>
+                    <button id="button">RESET</button>
+                 </td>
+             </tr>
+      
+            </table>
+    </div>
+</body>
+</html>
+
+
+body {
+     margin-left: 10px;
+}
+
+.one{
+    background-color: rgba(132, 132, 132, 0.181);
+
+    width:300px;
+}
+.input{
+    border: none;
+    background-color:rgba(128, 128, 128, 0.664);
+    border-radius: 5px ;
+ }
+#button{
+    background-color: rgba(128, 128, 128, 0.911);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.two{
+    margin-left: 30px;
+    
+}
